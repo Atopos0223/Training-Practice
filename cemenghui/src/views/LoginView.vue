@@ -52,10 +52,7 @@ export default defineComponent({
           password: upwd.value,
         });
         
-        // 打印完整的响应对象
-        console.log('完整响应对象:', res);
-        // 打印响应数据
-        console.log('响应数据:', res.data);
+        
         // 打印code属性（注意可能的正确位置）
         console.log('res.code:', res.code);
         console.log('res.data.code:', res.data.code);
